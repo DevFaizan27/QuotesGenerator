@@ -18,6 +18,8 @@ const Hero = () => {
       'X-RapidAPI-Host': 'quotes-by-api-ninjas.p.rapidapi.com'
     }
   };
+  
+  console.log(options)
 
 
   const getQuote = async () => {
