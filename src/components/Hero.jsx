@@ -14,7 +14,7 @@ const Hero = () => {
     method: 'GET',
     url: 'https://quotes-by-api-ninjas.p.rapidapi.com/v1/quotes',
     headers: {
-      'X-RapidAPI-Key':({}).VITE_RAPIDAPI_KEY,
+      'X-RapidAPI-Key':import.meta.env.VITE_RAPIDAPI_KEY,
       'X-RapidAPI-Host': 'quotes-by-api-ninjas.p.rapidapi.com'
     }
   };
